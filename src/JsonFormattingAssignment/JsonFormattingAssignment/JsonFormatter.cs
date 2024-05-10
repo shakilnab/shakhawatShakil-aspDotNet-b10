@@ -88,8 +88,8 @@ public class JsonFormatter
 
 
     /*=============================================================================
-     1. This FormatArrayType method will handle all Array and List by recursively 
-        calling Convert method.
+     1. This FormatArrayType method will handle all Array(1D and jagged array) and 
+        List by recursively calling Convert method.        
     =============================================================================*/
     private static string FormatArrayType(object item)
     {
